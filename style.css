@@ -1,0 +1,190 @@
+
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'October Crow';
+    src: url('/image/fonts/October\ Crow.ttf') format('truetype')
+    
+    
+
+    
+}
+@font-face {
+    font-family: 'TangoMacabre';
+    src: url("/image/fonts/TangoMacabre.ttf") format('truetype')
+    
+    
+
+    
+}
+
+
+body {
+	font-family: 'October Crow', sans-serif;
+    
+}
+
+body {
+    
+    font-family: 'October Crow', sans-serif;
+    background-image: url(image/6.jpg);
+    background-repeat:no-repeat;
+    background-size: 80%;
+  background-position:70% 30%;
+  background-color: rgb(214, 80, 18);
+  background-image: fix;
+ 
+  
+  
+    
+}
+
+
+
+h1 {
+   text-align: center;
+    font-family: 'TangoMacabre';
+    font-weight: 0;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 80px;
+    color: rgb(10, 5, 1);
+}
+.container-global {
+width: 70%;
+max-width: 800px;
+margin: 0 auto;
+height: auto;
+color: rgb(41, 4, 4);
+
+
+}
+.question-block {
+    padding: px 25px 25px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(240, 7, 7, 0.89);
+    
+}
+
+.question-block h4{
+    padding: 10px 0;
+    font-size: 23px;
+}
+.question-block label {
+    font-size: 20px;
+}
+.question-block input[  type="radio"]
+{
+    transform: scale(1.4) ;
+    margin: 10px;
+}
+.resultats {
+    padding: 25px;
+    margin: 10px 0px 70px;
+    border-radius: 5px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.5);
+}
+.resultats h2{
+    text-align: center;
+    
+}
+.aide{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.note { text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+form button{
+    font-family: 'October Crow';
+    border: none;
+    outline: none;
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    padding: 20px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+form button:hover{
+    background-color: rgb(240, 149, 29);
+
+}
+.freddy {
+    padding: 15px 25px 25px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(240, 7, 7, 0.89);
+    
+}
+.freddy {
+    background-image: url(image/5.jpg);
+     background-repeat:no-repeat;
+    background-size: 100%;
+  background-position:70% 30%;
+
+
+
+
+}
+.freddy h4{
+    padding: 25px 0;
+    font-size: 25px;
+    color: rgb(212, 23, 23);
+}
+.freddy label {
+    font-size: 20px;
+    color: rgb(255, 8, 8);
+}
+.freddy input[  type="radio"]
+{
+    transform: scale(1.4) ;
+    margin: 10px;
+}
+.echec {
+    animation: 0.3s ease-in-out;
+}
+@keyframes echec {
+    0%{
+        transform: translate(0px) ;
+    }
+    33%{
+        transform: translate(5px) ;
+    }
+    66%{
+        transform: translate(-5px) ;
+    }
+    100%{
+        transform: translate(0px) ;
+    }
+}
+#contenu{
+    min-height:500px;
+}
+
+#image
+{
+    padding: 5px 45px 35px;
+    margin: 50px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(230, 222, 222, 0.89);
+    background-image: url(image/1.png);
+    background-repeat:no-repeat;
+   background-size: 100%;
+ background-position:70% 30%;
+
+}
+   
+
+
